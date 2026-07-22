@@ -1,0 +1,93 @@
+import { FlyerData } from '../types';
+
+export const DEFAULT_FLYER_DATA: FlyerData = {
+  titleLine1: 'MACBOOK',
+  titleLine2: 'PRO 15',
+  titleLine3: 'i7 Intel Core',
+  spec1: '32 RAM',
+  spec2: '500 SSD',
+  spec3: 'macOS Sequoia',
+  specExtra: [],
+  precio: 500,
+  moneda: 'Dolares',
+  garantiaMeses: 3,
+  condicion: 'SEMI NUEVO',
+  direccion: 'Colegio San Francisco de Asis ½ Cuadra al Norte, Matagalpa, Nicaragua',
+  telefono: '+505 81295540',
+  email: 'comercialelprogreso9@gmail.com',
+  imagenUrl: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80',
+  logoSubtitulo: 'Especializado en Tecnología',
+};
+
+export const PRESET_FLYERS: { name: string; data: Partial<FlyerData> }[] = [
+  {
+    name: '💻 MacBook Pro 15 (i7 / 32GB)',
+    data: {
+      titleLine1: 'MACBOOK',
+      titleLine2: 'PRO 15',
+      titleLine3: 'i7 Intel Core',
+      spec1: '32 RAM',
+      spec2: '500 SSD',
+      spec3: 'macOS Sequoia',
+      precio: 500,
+      condicion: 'SEMI NUEVO',
+      imagenUrl: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80',
+    },
+  },
+  {
+    name: '💻 Laptop Dell XPS 15 (i9 / 32GB)',
+    data: {
+      titleLine1: 'LAPTOP DELL',
+      titleLine2: 'XPS 15',
+      titleLine3: 'Intel i9 12th Gen',
+      spec1: '32GB RAM DDR5',
+      spec2: '1TB NVMe SSD',
+      spec3: 'Windows 11 Pro',
+      precio: 780,
+      condicion: 'EXCELENTE ESTADO',
+      imagenUrl: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80',
+    },
+  },
+  {
+    name: '💻 HP Pavilion G7 i7 (16GB)',
+    data: {
+      titleLine1: 'LAPTOP G7',
+      titleLine2: 'HP ORIGINAL',
+      titleLine3: 'Intel Core i7',
+      spec1: '16GB RAM',
+      spec2: '512GB SSD',
+      spec3: 'Windows 11 + Office 21',
+      precio: 470,
+      condicion: 'SEMI NUEVO',
+      imagenUrl: 'https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80',
+    },
+  },
+  {
+    name: '💻 Lenovo ThinkPad T14 (16GB)',
+    data: {
+      titleLine1: 'LENOVO',
+      titleLine2: 'THINKPAD T14',
+      titleLine3: 'Core i5 11th Gen',
+      spec1: '16GB RAM',
+      spec2: '256GB NVMe SSD',
+      spec3: 'Windows 11 Pro',
+      precio: 420,
+      condicion: 'SEMI NUEVO',
+      imagenUrl: 'https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1000&q=80',
+    },
+  },
+  {
+    name: '🎮 Asus ROG Strix Gaming',
+    data: {
+      titleLine1: 'ASUS ROG',
+      titleLine2: 'STRIX G15',
+      titleLine3: 'Ryzen 7 + RTX 3060',
+      spec1: '16GB DDR5 RAM',
+      spec2: '1TB NVMe SSD',
+      spec3: 'Pantalla 144Hz 15.6"',
+      precio: 890,
+      condicion: 'SEMI NUEVO',
+      imagenUrl: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1000&q=80',
+    },
+  },
+];

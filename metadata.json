@@ -1,0 +1,6 @@
+{
+  "name": "Comercial El Progreso - Sistema y Generador de Flyers",
+  "description": "Sistema de facturación, comprobantes de entrega y generador de flyers de alta calidad con el diseño exacto de Comercial El Progreso.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
